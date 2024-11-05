@@ -1,75 +1,19 @@
-### Site Settings ###
-title               : Home
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : fernandofgfer/fernandofgfer.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : yousinix/portfolYOU
-open_new_tab        : true                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+# Site settings
+title: A blog about lorem ipsum dolor sit amet
+description: A blog about lorem ipsum dolor sit amet
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
+# User settings
+username: Fernando García
+user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
+user_title: iOS Software Developer
+email: fernando.fgfer@gmail.com
+twitter_username: byfgfer
+github_username:  fernandofgfer
 
-### Plugins ###
-plugins:
-  - jemoji
+# Google-analytics
+google-analytics:
+  id: ""
 
-
-### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/404.html
-  - pages/index.md
-
-
-### Author Info ###
-author:
-  name              : Fernando García
-  image             : https://avatars.githubusercontent.com/u/11411847?s=400&u=f401d54a71a9901bc8c17be94b4ebc5d203a2412&v=4
-  # behance           : your_username
-# dribbble          : your_username
-  email             : fernando.fgfer@gmail.com
-  # facebook          : your_username
-  github            : fernandofgfer
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-  linkedin          : fernandogarciafernandez
-  # medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  twitter           : byfgfer
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
-
-
-### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
-
-
-### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
-
-
-### Defaults for collections ###
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-
-
-### Exclude from processing ###
-exclude:
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - "*.log"
+exclude: ['package.json', 'src' , 'node_modules']
